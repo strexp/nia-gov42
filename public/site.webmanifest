@@ -1,0 +1,16 @@
+{
+  "name": "National Immigration Agency",
+  "short_name": "NIA@gov.dn42",
+  "description": "The National Immigration Agency portal: travel documents, public key infrastructure and immigration services.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1b3a6b",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

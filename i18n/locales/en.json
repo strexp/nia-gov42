@@ -1,0 +1,290 @@
+{
+  "site": {
+    "name": "National Immigration Agency",
+    "shortName": "NIA",
+    "domain": "{'@'}gov.dn42",
+    "tagline": "Safeguarding the movement of people, issuing trustworthy travel documents and operating the country's public key infrastructure.",
+    "official": "An official portal of the National Immigration Agency"
+  },
+  "common": {
+    "language": "Language",
+    "toggleTheme": "Toggle colour theme",
+    "navigation": "Primary navigation",
+    "skipToContent": "Skip to content",
+    "opensInNewTab": "opens in a new tab",
+    "backToHome": "Back to home",
+    "notFound": "Page not found",
+    "errorGeneric": "Something went wrong",
+    "notFoundDescription": "The page you are looking for could not be found.",
+    "errorGenericDescription": "An unexpected error occurred. Please try again."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "notices": "Notices",
+    "openSource": "Open source",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "footer": {
+    "builtWith": "Built with open technology for the dn42 community.",
+    "version": "Version {version}",
+    "copyright": "© {year} NIA{'@'}gov.dn42",
+    "accessibility": "Accessibility",
+    "privacy": "Privacy",
+    "terms": "Terms of use"
+  },
+  "platforms": {
+    "epass42": "via ePass42"
+  },
+  "home": {
+    "ctaServices": "Explore our services",
+    "ctaEpass": "Open ePass42",
+    "tasksTitle": "Most requested",
+    "tasksDescription": "The tasks people come to the Agency for most often.",
+    "tasks": {
+      "apply": "Apply for a travel document",
+      "status": "Check application status",
+      "verify": "Verify a document",
+      "lost": "Report a lost or stolen document",
+      "appointment": "Book an appointment",
+      "processing": "Check processing times"
+    },
+    "noticesTitle": "Latest notices",
+    "noticesAll": "All notices",
+    "aboutTitle": "About the Agency",
+    "aboutDescription": "The National Immigration Agency issues the country's travel documents, operates the Country Signing Certification Authority and maintains the Public Key Directory.",
+    "aboutCta": "Learn about the Agency"
+  },
+  "services": {
+    "openService": "Open service",
+    "public": "Public",
+    "signInRequired": "Sign-in required",
+    "planned": "Planned",
+    "plannedNote": "Not yet available",
+    "availableNote": "Signing in and submitting applications happen in the respective service, not on this portal.",
+    "groups": {
+      "pki": {
+        "title": "Public key infrastructure",
+        "description": "The root of trust and the directory used to verify electronic travel documents, operated through the ePass42 platform."
+      },
+      "travelDocuments": {
+        "title": "Travel documents",
+        "description": "Apply for, personalise and manage electronic travel documents."
+      },
+      "immigration": {
+        "title": "Immigration and residence",
+        "description": "Entry, residence and citizenship services."
+      }
+    },
+    "items": {
+      "csca": {
+        "name": "Country Signing Certification Authority (CSCA)",
+        "summary": "The root of trust for electronic travel documents: publish and download the country's signing certificate."
+      },
+      "dsc": {
+        "name": "Document Signer Certificates (DSC)",
+        "summary": "Apply for a Document Signer certificate to sign the data on electronic travel documents."
+      },
+      "pkd": {
+        "name": "Public Key Directory (PKD)",
+        "summary": "Consult the published CSCA certificates, Document Signer certificates and revocation information."
+      },
+      "sltd": {
+        "name": "Stolen and Lost Travel Documents (SLTD)",
+        "summary": "Check whether a travel document has been reported stolen or lost, and report one."
+      },
+      "cardDelivery": {
+        "name": "Card personalisation and delivery",
+        "summary": "Have an approved document personalised and delivered by post through a trusted partner."
+      },
+      "visas": {
+        "name": "Visas and entry permits",
+        "summary": "Visa classes, entry permits and electronic travel authorisations."
+      },
+      "residence": {
+        "name": "Residence permits",
+        "summary": "Residence permits, extensions and long-term stay."
+      },
+      "citizenship": {
+        "name": "Citizenship and naturalisation",
+        "summary": "Applications for citizenship and naturalisation."
+      }
+    },
+    "faqTitle": "Common questions",
+    "faq": {
+      "apply": {
+        "q": "How do I apply for a travel document?",
+        "a": "Applications are submitted through the service that handles the document. Applying for a Document Signer certificate and requesting personalisation files is done in ePass42."
+      },
+      "verify": {
+        "q": "How is an electronic travel document verified?",
+        "a": "Receiving authorities verify a document against the certificates and revocation information published in the Public Key Directory."
+      },
+      "delivery": {
+        "q": "Can I have my document delivered?",
+        "a": "Yes. Approved applicants can order personalisation and postal delivery through the ePass42 platform."
+      }
+    }
+  },
+  "partners": {
+    "title": "Trusted partners",
+    "description": "Personalisation and delivery of approved documents is carried out by the trusted partner below.",
+    "orderCta": "Order personalisation and delivery",
+    "items": {
+      "strexp": {
+        "name": "Strategic Explorations (StrExp)",
+        "description": "Professional card personalisation and postal delivery for applicants who prefer not to write the personalisation file to a card themselves."
+      }
+    }
+  },
+  "notices": {
+    "categories": {
+      "announcement": "Announcement",
+      "service": "Service update",
+      "security": "Security"
+    },
+    "items": {
+      "help": {
+        "title": "Role-based help page added",
+        "summary": "The portal now includes a help page with step-by-step guidance for applicants, reviewers and certificate administrators."
+      },
+      "chinese": {
+        "title": "Interface available in Chinese",
+        "summary": "The portal can now be used in Chinese, with browser-language detection and a locale switcher."
+      },
+      "sltd": {
+        "title": "Revoked documents published as hashes",
+        "summary": "The Public Key Directory publishes revoked travel documents as SHA-256 hashes, so a document can be checked without exposing personal data."
+      },
+      "dscIssuance": {
+        "title": "Document Signer certificate issuance is live",
+        "summary": "Applicants can request a Document Signer certificate; approved certificates are issued automatically and listed in the PKD."
+      },
+      "pkdInterfaces": {
+        "title": "Public Key Directory available over REST, LDIF and LDAP",
+        "summary": "The PKD is published over REST, as an LDIF dump, and through a read-only LDAP layer for existing directory clients."
+      }
+    }
+  },
+  "about": {
+    "intro": "The National Immigration Agency (NIA) is responsible for the movement of people across the network, the issuance of travel documents and the operation of the public key infrastructure.",
+    "missionTitle": "Mission",
+    "mission": "Our mission is to facilitate legitimate travel and migration while protecting the integrity of our documents and the security of the network.",
+    "mandateTitle": "Mandate",
+    "mandateItem1": "Issue electronic travel documents and maintain the trust chain used to verify them.",
+    "mandateItem2": "Operate the Country Signing Certification Authority and the Public Key Directory.",
+    "mandateItem3": "Manage entry, residence and departure at the border.",
+    "mandateItem4": "Advise the Government on immigration and document security policy.",
+    "directoratesTitle": "Directorates",
+    "directorates": {
+      "travelDocuments": {
+        "name": "Travel Documents",
+        "description": "Issues travel documents and manages the personalisation process."
+      },
+      "borderControl": {
+        "name": "Border Control",
+        "description": "Manages entry, residence and departure, and operates border clearance."
+      },
+      "pki": {
+        "name": "Public Key Infrastructure",
+        "description": "Operates the Country Signing Certification Authority and the Public Key Directory."
+      },
+      "legal": {
+        "name": "Legal Affairs",
+        "description": "Provides legal advice and ensures compliance with the legislative framework."
+      },
+      "corporate": {
+        "name": "Corporate Services",
+        "description": "Provides human resources, finance, communications and technology services."
+      }
+    }
+  },
+  "contact": {
+    "emailLabel": "Email",
+    "email": "info{'@'}nia.gov.dn42",
+    "appointmentNote": "Visits are by appointment. Book one through the service that handles your application.",
+    "officesTitle": "Office",
+    "addressLabel": "Address",
+    "phoneLabel": "Telephone",
+    "hoursLabel": "Opening hours",
+    "offices": {
+      "headquarters": {
+        "name": "Management Office",
+        "address": "Gensokyo Network",
+        "hours": "Monday to Friday, 9:30–18:30"
+      }
+    }
+  },
+  "opensource": {
+    "intro": "The National Immigration Agency develops its services in the open. The software behind them is published as open source.",
+    "viewOnGithub": "View on GitHub",
+    "projects": {
+      "card42": {
+        "name": "card42",
+        "tagline": "EMV + eMRTD Java Card toolkit",
+        "description": "An EMV and eMRTD (ICAO 9303) Java Card toolkit: the card-side applets and the host library used to personalise and read electronic travel documents."
+      },
+      "epass42": {
+        "name": "epass42",
+        "tagline": "PKD, CSCA and DSC service",
+        "description": "The software behind the ePass42 service: a Public Key Directory, a Country Signing Certification Authority and Document Signer Certificate issuance."
+      }
+    }
+  },
+  "legal": {
+    "accessibility": {
+      "title": "Accessibility",
+      "description": "The accessibility commitment and conformance of the NIA portal.",
+      "body": [
+        "The National Immigration Agency is committed to making this portal usable by everyone, regardless of ability or the technology they use.",
+        "The portal is built on standard HTML semantics, supports keyboard navigation and responds to the operating system's reduced-motion and colour-scheme preferences.",
+        "If you encounter an accessibility barrier, please contact us by email so that we can help and improve the portal."
+      ]
+    },
+    "privacy": {
+      "title": "Privacy",
+      "description": "How the NIA portal handles privacy and personal data.",
+      "body": [
+        "This portal is a static website. It does not use tracking cookies and it does not send personal data to third parties.",
+        "The portal makes no requests to the public internet: fonts, icons and scripts are all served from the same origin.",
+        "Where a service asks you to sign in or submit personal data, that data is handled by the service itself (for example ePass42) under its own privacy notice."
+      ]
+    },
+    "terms": {
+      "title": "Terms of use",
+      "description": "The terms governing the use of the NIA portal.",
+      "body": [
+        "This portal is an official information service of the National Immigration Agency.",
+        "The information published here is provided in good faith. Fees, processing times and service details may change, and the applicable service is always authoritative.",
+        "External services linked from this portal are operated independently and are governed by their own terms."
+      ]
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "Home",
+      "description": "The National Immigration Agency issues travel documents, operates the public key infrastructure and manages immigration services across the network."
+    },
+    "services": {
+      "title": "Services",
+      "description": "Apply for travel documents, consult the public key infrastructure and find the immigration service you need."
+    },
+    "notices": {
+      "title": "Notices",
+      "description": "Announcements, service updates and security notices from the National Immigration Agency."
+    },
+    "openSource": {
+      "title": "Open source",
+      "description": "The open-source projects that power NIA services."
+    },
+    "about": {
+      "title": "About the Agency",
+      "description": "The mission, mandate and organisation of the National Immigration Agency."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Contact details and office of the National Immigration Agency."
+    }
+  }
+}

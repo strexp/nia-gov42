@@ -1,0 +1,27 @@
+# Keep the Docker build context small and free of host/CI state. The build
+# context is the repository root.
+
+# Version control / CI
+.git
+.gitignore
+.github
+
+# Dependencies (installed inside the image)
+node_modules
+
+# Build output (rebuilt inside the image)
+dist
+.output
+.nuxt
+.nitro
+.cache
+*.tsbuildinfo
+
+# Local state and editor noise
+.data
+.env
+.env.*
+.vscode
+.idea
+.DS_Store
+*.log

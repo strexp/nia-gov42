@@ -1,0 +1,26 @@
+# Dependencies
+node_modules
+
+# Nuxt build output
+.nuxt
+.output
+dist
+.nitro
+.cache
+
+# Local env / editor
+.env
+.env.*
+!.env.example
+.vscode
+.idea
+.DS_Store
+
+# Logs
+*.log
+pnpm-debug.log*
+
+# Planning documents (not part of the repository)
+PLAN.md
+TODO.md
+

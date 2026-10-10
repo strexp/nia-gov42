@@ -1,0 +1,290 @@
+{
+  "site": {
+    "name": "国家移民管理局",
+    "shortName": "NIA",
+    "domain": "{'@'}gov.dn42",
+    "tagline": "守护人员往来，签发可信旅行证件，并运营国家公钥基础设施。",
+    "official": "国家移民管理局官方网站"
+  },
+  "common": {
+    "language": "语言",
+    "toggleTheme": "切换配色主题",
+    "navigation": "主导航",
+    "skipToContent": "跳到主要内容",
+    "opensInNewTab": "在新标签页打开",
+    "backToHome": "返回首页",
+    "notFound": "页面不存在",
+    "errorGeneric": "出错了",
+    "notFoundDescription": "无法找到您要访问的页面。",
+    "errorGenericDescription": "发生了意外错误，请重试。"
+  },
+  "nav": {
+    "home": "首页",
+    "services": "服务",
+    "notices": "公告",
+    "openSource": "开源",
+    "about": "关于",
+    "contact": "联系我们"
+  },
+  "footer": {
+    "builtWith": "以开放技术为 dn42 社区构建。",
+    "version": "版本 {version}",
+    "copyright": "© {year} NIA{'@'}gov.dn42",
+    "accessibility": "无障碍",
+    "privacy": "隐私",
+    "terms": "使用条款"
+  },
+  "platforms": {
+    "epass42": "由 ePass42 提供"
+  },
+  "home": {
+    "ctaServices": "浏览我们的服务",
+    "ctaEpass": "打开 ePass42",
+    "tasksTitle": "热门事项",
+    "tasksDescription": "公众最常办理的事项。",
+    "tasks": {
+      "apply": "申请旅行证件",
+      "status": "查询申请进度",
+      "verify": "核验证件",
+      "lost": "挂失或报失证件",
+      "appointment": "预约办理",
+      "processing": "查询办理时限"
+    },
+    "noticesTitle": "最新公告",
+    "noticesAll": "全部公告",
+    "aboutTitle": "关于本局",
+    "aboutDescription": "国家移民管理局签发本国旅行证件，运营国家签名认证机构并维护公钥目录。",
+    "aboutCta": "了解本局"
+  },
+  "services": {
+    "openService": "打开服务",
+    "public": "公开",
+    "signInRequired": "需要登录",
+    "planned": "计划中",
+    "plannedNote": "尚未开放",
+    "availableNote": "登录与提交申请均在相应服务中进行，本门户不办理。",
+    "groups": {
+      "pki": {
+        "title": "公钥基础设施",
+        "description": "用于核验电子旅行证件的信任根与目录，由 ePass42 平台运营。"
+      },
+      "travelDocuments": {
+        "title": "旅行证件",
+        "description": "申请、个性化并管理电子旅行证件。"
+      },
+      "immigration": {
+        "title": "移民与居留",
+        "description": "入境、居留与国籍服务。"
+      }
+    },
+    "items": {
+      "csca": {
+        "name": "国家签名认证机构（CSCA）",
+        "summary": "电子旅行证件的信任根：发布并下载本国签名证书。"
+      },
+      "dsc": {
+        "name": "文档签名证书（DSC）",
+        "summary": "申请文档签名证书，用于签署电子旅行证件中的数据。"
+      },
+      "pkd": {
+        "name": "公钥目录（PKD）",
+        "summary": "查询已发布的 CSCA 证书、文档签名证书与吊销信息。"
+      },
+      "sltd": {
+        "name": "被盗及遗失旅行证件（SLTD）",
+        "summary": "查询证件是否已被报失或报盗，并提交挂失。"
+      },
+      "cardDelivery": {
+        "name": "卡片个性化与配送",
+        "summary": "由可信合作伙伴为已批准的证件完成个性化并邮寄。"
+      },
+      "visas": {
+        "name": "签证与入境许可",
+        "summary": "签证类别、入境许可与电子旅行授权。"
+      },
+      "residence": {
+        "name": "居留许可",
+        "summary": "居留许可、延期与长期居留。"
+      },
+      "citizenship": {
+        "name": "国籍与入籍",
+        "summary": "国籍申请与入籍。"
+      }
+    },
+    "faqTitle": "常见问题",
+    "faq": {
+      "apply": {
+        "q": "如何申请旅行证件？",
+        "a": "申请通过办理该证件的服务提交。申请文档签名证书与个性化文件均在 ePass42 中办理。"
+      },
+      "verify": {
+        "q": "电子旅行证件如何核验？",
+        "a": "接收方依据公钥目录中发布的证书与吊销信息核验证件。"
+      },
+      "delivery": {
+        "q": "证件可以邮寄吗？",
+        "a": "可以。已批准的申请人可通过 ePass42 平台办理卡片个性化与邮寄。"
+      }
+    }
+  },
+  "partners": {
+    "title": "可信合作伙伴",
+    "description": "已批准证件的个性化与配送由以下可信合作伙伴执行。",
+    "orderCta": "办理个性化与配送",
+    "items": {
+      "strexp": {
+        "name": "Strategic Explorations（StrExp）",
+        "description": "为不自行写入个性化文件的申请人提供专业的卡片个性化与邮寄服务。"
+      }
+    }
+  },
+  "notices": {
+    "categories": {
+      "announcement": "公告",
+      "service": "服务更新",
+      "security": "安全"
+    },
+    "items": {
+      "help": {
+        "title": "新增基于角色的使用指南",
+        "summary": "门户新增使用指南页面，为申请人、审核员与证书管理员提供分步操作说明。"
+      },
+      "chinese": {
+        "title": "界面已支持中文",
+        "summary": "门户现可使用中文，支持浏览器语言检测与语言切换。"
+      },
+      "sltd": {
+        "title": "已吊销证件以哈希形式发布",
+        "summary": "公钥目录以 SHA-256 哈希形式发布已吊销的旅行证件，可在不暴露个人信息的前提下核验证件。"
+      },
+      "dscIssuance": {
+        "title": "文档签名证书签发已上线",
+        "summary": "申请人可申请文档签名证书；审核通过后证书将自动签发并列入 PKD。"
+      },
+      "pkdInterfaces": {
+        "title": "公钥目录支持 REST、LDIF 与 LDAP 访问",
+        "summary": "PKD 可通过 REST、LDIF 导出以及只读 LDAP 层访问，兼容现有的目录客户端。"
+      }
+    }
+  },
+  "about": {
+    "intro": "国家移民管理局（NIA）负责网络内的人员往来、旅行证件的签发以及公钥基础设施的运营。",
+    "missionTitle": "使命",
+    "mission": "我们的使命是便利合法旅行与迁徙，同时保护证件的完整性与网络的安全。",
+    "mandateTitle": "职责",
+    "mandateItem1": "签发电子旅行证件，并维护用于核验的信任链。",
+    "mandateItem2": "运营国家签名认证机构与公钥目录。",
+    "mandateItem3": "管理口岸的入境、居留与出境。",
+    "mandateItem4": "就移民与证件安全政策向政府提供建议。",
+    "directoratesTitle": "各司局",
+    "directorates": {
+      "travelDocuments": {
+        "name": "旅行证件司",
+        "description": "签发旅行证件并管理个性化流程。"
+      },
+      "borderControl": {
+        "name": "边境管控司",
+        "description": "管理入境、居留与出境，并运营口岸通关。"
+      },
+      "pki": {
+        "name": "公钥基础设施司",
+        "description": "运营国家签名认证机构与公钥目录。"
+      },
+      "legal": {
+        "name": "法律事务司",
+        "description": "提供法律意见并确保符合法律框架。"
+      },
+      "corporate": {
+        "name": "综合事务司",
+        "description": "提供人力资源、财务、传播与信息技术服务。"
+      }
+    }
+  },
+  "contact": {
+    "emailLabel": "电子邮箱",
+    "email": "info{'@'}nia.gov.dn42",
+    "appointmentNote": "来访需预约，请通过办理您申请的服务进行预约。",
+    "officesTitle": "办公地点",
+    "addressLabel": "地址",
+    "phoneLabel": "电话",
+    "hoursLabel": "办公时间",
+    "offices": {
+      "headquarters": {
+        "name": "管理办公室",
+        "address": "Gensokyo Network",
+        "hours": "周一至周五 9:30–18:30"
+      }
+    }
+  },
+  "opensource": {
+    "intro": "国家移民管理局以开放方式开发其服务，其背后的软件以开源形式发布。",
+    "viewOnGithub": "在 GitHub 上查看",
+    "projects": {
+      "card42": {
+        "name": "card42",
+        "tagline": "EMV + eMRTD Java Card 工具包",
+        "description": "面向 EMV 与 eMRTD（ICAO 9303）的 Java Card 工具包：包含卡片端小程序与用于个性化和读取电子旅行证件的主机端库。"
+      },
+      "epass42": {
+        "name": "epass42",
+        "tagline": "PKD、CSCA 与 DSC 服务",
+        "description": "ePass42 服务背后的软件：公钥目录、国家签名认证机构以及文档签名证书签发。"
+      }
+    }
+  },
+  "legal": {
+    "accessibility": {
+      "title": "无障碍",
+      "description": "NIA 门户的无障碍承诺与符合性说明。",
+      "body": [
+        "国家移民管理局致力于让所有人都能使用本门户，不论其能力或所使用的技术。",
+        "本门户基于标准的 HTML 语义构建，支持键盘操作，并响应操作系统的减少动态效果与配色方案偏好。",
+        "如果您遇到无障碍障碍，请通过电子邮件与我们联系，以便我们提供帮助并改进门户。"
+      ]
+    },
+    "privacy": {
+      "title": "隐私",
+      "description": "NIA 门户如何处理隐私与个人数据。",
+      "body": [
+        "本门户是静态网站，不使用跟踪 Cookie，也不会将个人数据发送给第三方。",
+        "本门户不会向公共互联网发起请求：字体、图标与脚本均来自同一来源。",
+        "若某项服务要求您登录或提交个人数据，这些数据由该服务本身（例如 ePass42）按其隐私声明处理。"
+      ]
+    },
+    "terms": {
+      "title": "使用条款",
+      "description": "使用 NIA 门户所适用的条款。",
+      "body": [
+        "本门户是国家移民管理局的官方信息服务。",
+        "本门户发布的信息出于善意提供。费用、办理时限与服务细节可能变更，以相应服务为准。",
+        "本门户链接的外部服务独立运营，适用其自身的条款。"
+      ]
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "首页",
+      "description": "国家移民管理局签发旅行证件、运营公钥基础设施，并管理网络内的移民服务。"
+    },
+    "services": {
+      "title": "服务",
+      "description": "申请旅行证件、查询公钥基础设施，并找到您需要的移民服务。"
+    },
+    "notices": {
+      "title": "公告",
+      "description": "国家移民管理局发布的公告、服务更新与安全通知。"
+    },
+    "openSource": {
+      "title": "开源",
+      "description": "为 NIA 服务提供支持的开源项目。"
+    },
+    "about": {
+      "title": "关于本局",
+      "description": "国家移民管理局的使命、职责与组织。"
+    },
+    "contact": {
+      "title": "联系我们",
+      "description": "国家移民管理局的联系方式与办公地点。"
+    }
+  }
+}
