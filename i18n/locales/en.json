@@ -229,6 +229,11 @@
         "name": "epass42",
         "tagline": "PKD, CSCA and DSC service",
         "description": "The software behind the ePass42 service: a Public Key Directory, a Country Signing Certification Authority and Document Signer Certificate issuance."
+      },
+      "passportcard42": {
+        "name": "passportcard42",
+        "tagline": "TD1 e-Passport card artwork and generator",
+        "description": "The TD1 (ICAO 9303) e-Passport card face: editable SVG masters for the front and back, print-ready production files and a browser-based generator that fills the artwork from a live MRZ, portrait and signature."
       }
     }
   },

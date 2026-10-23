@@ -229,6 +229,11 @@
         "name": "epass42",
         "tagline": "PKD、CSCA 与 DSC 服务",
         "description": "ePass42 服务背后的软件：公钥目录、国家签名认证机构以及文档签名证书签发。"
+      },
+      "passportcard42": {
+        "name": "passportcard42",
+        "tagline": "TD1 电子护照卡卡面与生成器",
+        "description": "TD1（ICAO 9303）电子护照卡的卡面设计：正反面可编辑 SVG 母版、印刷生产文件，以及一个在浏览器中根据实时 MRZ、人像与签名填充卡面的生成器。"
       }
     }
   },

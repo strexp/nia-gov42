@@ -1,6 +1,6 @@
 // External endpoints and repositories referenced across the portal.
 import type { Component } from 'vue'
-import { CreditCard, IdCard } from '@lucide/vue'
+import { CreditCard, IdCard, ScanFace } from '@lucide/vue'
 
 /** The ePass 42 service: CSCA, Document Signer certificates and the PKD. */
 export const EPASS_URL = 'https://epass.nia.gov.dn42'
@@ -18,4 +18,9 @@ export interface Repository {
 export const repositories: Repository[] = [
   { id: 'card42', icon: CreditCard, url: 'https://github.com/strexp/card42' },
   { id: 'epass42', icon: IdCard, url: 'https://github.com/strexp/epass42' },
+  {
+    id: 'passportcard42',
+    icon: ScanFace,
+    url: 'https://github.com/strexp/passportcard42',
+  },
 ]

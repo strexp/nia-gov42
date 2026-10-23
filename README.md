@@ -14,6 +14,9 @@ services, which are operated separately. Services that are documented in full by
   ([`strexp/epass42`](https://github.com/strexp/epass42)).
 - **card42** — [`strexp/card42`](https://github.com/strexp/card42): EMV + eMRTD
   (ICAO 9303) Java Card toolkit.
+- **passportcard42** — [`strexp/passportcard42`](https://github.com/strexp/passportcard42):
+  TD1 (ICAO 9303) e-Passport card artwork, print-ready masters and a browser-based
+  card generator.
 - **Card personalisation and delivery** — ordered from a trusted partner.
 
 ## Site structure
